@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    min-height: 10vh; /* meams its height will be 10 percent of the screen*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    
+} 
+
+
+.container {
+    min-height: 73vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(123, 132, 131);
+    border-radius: 25px;
+    margin: 20px auto;
+    background-image: url(99.jpg);
+    background-size: cover;
+    
+}
+#myProgressBar {
+    min-width: 82vw;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.gif {
+    position: absolute;
+    left: 10vw;
+    opacity: 0;
+}
+.icons {
+    margin-top: 8px;
+}
+.songitem {
+    display: flex;
+    height: 50px;
+    background-color: beige;
+    width: auto;
+    margin: 12x 0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 34px;
+    margin-top: 20px;
+    border-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: beige;
+}
+.songitem img {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 25px;
+}
+.songlist {
+    border-left: 20px;
+    
+    
+}
+.container {
+    display: flex;
+    border: 1px solid #000;
+  }
+  
+  .container:after {
+    content: " ";
+    display: block;
+    flex: 1;
+  }
+  
+.left,
+.center {
+    border: 1px solid #0F0;
+    flex: 1;
+    text-align: center;
+  }
